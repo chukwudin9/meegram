@@ -1,0 +1,13 @@
+Source: meegram
+Section: user/other
+Priority: optional
+Maintainer: Chukwudi Nwutobo <nwutobo@outlook.com>
+Build-Depends: debhelper (>= 5), libqt4-dev
+Standards-Version: 3.7.3
+Homepage: https://github.com/nwutobo/meegram
+
+Package: meegram
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Telegram client for Nokia N9
+XSBC-Maemo-Display-Name: MeeGram

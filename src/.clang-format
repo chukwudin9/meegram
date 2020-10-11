@@ -10,15 +10,15 @@ AlwaysBreakBeforeMultilineStrings: false
 BasedOnStyle: Google
 BraceWrapping: {
     AfterClass: 'true'
-    AfterControlStatement: 'true'
+    AfterControlStatement: 'false'
     AfterFunction: 'true'
     AfterNamespace: 'false'
     BeforeCatch: 'true'
-    BeforeElse: 'true'
+    BeforeElse: 'false'
 }
 BreakBeforeBraces: Custom
 BreakConstructorInitializersBeforeComma: true
-ColumnLimit: 80
+ColumnLimit: 140
 ConstructorInitializerAllOnOneLineOrOnePerLine: false
 DerivePointerBinding: false
 FixNamespaceComments: true

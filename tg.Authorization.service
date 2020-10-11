@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=tg.Authorization
+Exec=/opt/bin/meegram
